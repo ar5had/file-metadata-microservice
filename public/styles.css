@@ -108,6 +108,11 @@ label>img{
     margin: 0 0 0 10px;
 }
 
+.data {
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
 @media screen and (max-width: 520px) {
     button, label {
         font-size: 13px;
