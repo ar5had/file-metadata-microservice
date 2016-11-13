@@ -1,11 +1,9 @@
 var express = require("express")
     , path = require("path")
-    , dotenv = require("dotenv")
     , multer = require("multer")
     , favicon = require("serve-favicon")
     , port = process.env.PORT || 8080;
 
-dotenv.load();
 var upload = multer();
 var app = express();
 
