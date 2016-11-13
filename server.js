@@ -21,7 +21,7 @@ app.get("*", function(req, res) {
 });
 
 app.post("/", upload.single("uploadedFile"), function(req,res) {
-   var data = JSON.stringify({"size(bytes)": req.file.size});
+   var data = JSON.stringify({"size": req.file.size});
    res.render("pages/metadata.ejs", {data: data}); 
 });
 
